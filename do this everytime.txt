@@ -1,0 +1,10 @@
+do this before commiting:
+1. add basename property in vite.config.ts
+2. add basename property in BrowserRouter in App.tsx
+
+portfolio-site name change
+1. project folder name
+2. github repository name
+3. package.json ---> name
+4. vite.config.ts ---> base
+5. App.tsx ---> BrowserRouter ---> basename

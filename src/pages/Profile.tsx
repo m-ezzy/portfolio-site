@@ -3,11 +3,7 @@ function Profile() {
   return (
 		<div className="teleport">
 			<div className="color11">
-				<div className="decorative-tags">
-				<code>
-					{"<Profile>"}
-				</code>
-				</div>
+				<code>{"<Profile>"}</code>
   	    <div>
 					<img src="me.jpg" />
 				</div>
@@ -16,7 +12,7 @@ function Profile() {
 					<div>I'm a full-stack web developer</div>
 				</div>
 				<div className="decorative-tags">
-					{"</Profile>"}
+					<code>{"</Profile>"}</code>
 				</div>
     	</div>
 			{/* <div className="teleport"> */}

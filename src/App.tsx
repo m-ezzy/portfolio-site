@@ -14,6 +14,7 @@ import './styles/animation.css'
 function App() {
   return (
     <div className="app">
+    {/* <BrowserRouter> */}
     <BrowserRouter basename='/portfolio-site/'>
       <Navbar />
       <Routes>
