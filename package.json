@@ -2,7 +2,7 @@
   "name": "portfolio-site",
   "version": "1.0.0",
   "type": "module",
-  "homepage": "/portfolio-site",
+  "homepage": "/portfolio-site/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

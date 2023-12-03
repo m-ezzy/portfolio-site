@@ -1,6 +1,7 @@
 do this before commiting:
 1. add basename property in vite.config.ts
 2. add basename property in BrowserRouter in App.tsx
+3. add homepage property in package.json
 
 portfolio-site name change
 1. project folder name
