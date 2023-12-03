@@ -9,7 +9,7 @@ function Profile() {
 				</code>
 				</div>
   	    <div>
-					<img src="/me.jpg" />
+					<img src="me.jpg" />
 				</div>
 				<div>
 					<div>Hi, I'm Murtaza Ezzy</div>
