@@ -1,8 +1,8 @@
 
 function Profile() {
   return (
-		<div className="teleport">
-			<div className="color11">
+		<div className="teleport page profile">
+			<div className="color11 content">
 				<code>{"<Profile>"}</code>
   	    <div>
 					<img className="my-picture" src="me.jpg" />

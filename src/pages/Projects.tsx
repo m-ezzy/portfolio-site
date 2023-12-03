@@ -1,16 +1,19 @@
 import { useEffect, useState } from "react"
+import configs from "../configs"
 
 function Projects() {
   let [repos, setRepos] = useState([]) as any[]
 
   useEffect(() => {
     function fetchProjects() {
-      fetch("https://api.github.com/users/m-ezzy/repos")
+      fetch(`https://api.github.com/users/${configs.github.username}/repos`)
         .then((response) => response.json())
         .then((data) => {
           console.log(data)
           setRepos(data)
         })
+      
+      let url = "https://api.github.com/users/$GHUSER/repos?access_token=$GITHUB_API_TOKEN"
     }
     fetchProjects()
   }, [])
