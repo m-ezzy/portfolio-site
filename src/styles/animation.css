@@ -1,0 +1,42 @@
+.teleport {
+}
+
+.teleport > div {
+	width: 100%;
+	height: 0%;
+	animation-name: one-after-the-other;
+	animation-duration: 1000ms;
+	animation-fill-mode: forwards;
+	animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+	animation-timing-function: cubic-bezier(0.9, 0.885, 0.32, 1.275);
+}
+
+.teleport > div:nth-child(1) {
+	z-index: 5;
+	animation-delay: 800ms;
+}
+.teleport > div:nth-child(2) {
+	z-index: 4;
+	animation-delay: 600ms;
+}
+.teleport > div:nth-child(3) {
+	z-index: 3;
+	animation-delay: 400ms;
+}
+.teleport > div:nth-child(4) {
+	z-index: 2;
+	animation-delay: 200ms;
+}
+.teleport > div:nth-child(5) {
+	z-index: 1;
+	animation-delay: 0ms;
+}
+
+@keyframes one-after-the-other {
+	0% {
+		height: 0%;
+	}
+	100% {
+		height: 100%;
+	}
+}
