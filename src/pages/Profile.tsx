@@ -5,7 +5,7 @@ function Profile() {
 			<div className="color11">
 				<code>{"<Profile>"}</code>
   	    <div>
-					<img src="me.jpg" />
+					<img className="my-picture" src="me.jpg" />
 				</div>
 				<div>
 					<div>Hi, I'm Murtaza Ezzy</div>
